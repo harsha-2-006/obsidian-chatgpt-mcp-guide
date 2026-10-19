@@ -22,5 +22,16 @@ Use these settings when publishing this guide or a derivative:
 4. Add the suggested topics and enable Issues if accepting reports.
 5. Review the published README and guide links while signed out or in a private browser window.
 
+## Settings applied to this repository
+
+The published repository is configured as follows:
+
+- Public visibility, `main` as the default branch, and the description above.
+- Topics: `obsidian`, `chatgpt`, `mcp`, `secure-mcp-tunnel`, and `documentation`.
+- Issues and pull requests enabled; Discussions and Wikis disabled.
+- A `protect-main` ruleset blocks force pushes and branch deletion on `main`. It does not require pull requests, so the solo maintainer can continue making direct updates.
+- GitHub secret scanning and push protection are enabled, along with private vulnerability reporting.
+- GitHub Pages is not configured; the README remains the canonical guide.
+
 GitHub settings and feature names vary by plan and over time. Use the current repository **Settings** pages and GitHub documentation.
 
