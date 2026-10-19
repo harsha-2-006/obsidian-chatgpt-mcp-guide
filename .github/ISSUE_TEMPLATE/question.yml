@@ -1,0 +1,23 @@
+name: Question or documentation correction
+description: Ask a question or report a guide detail that may be outdated.
+title: "[Docs]: "
+labels: [documentation]
+body:
+  - type: markdown
+    attributes:
+      value: "Never include API keys, bearer tokens, tunnel credentials, vault contents, or personal paths. Redact logs before posting."
+  - type: textarea
+    id: issue
+    attributes:
+      label: What needs clarification or correction?
+      description: Include the relevant guide section and a link to current official documentation if available.
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: Product versions
+      description: Obsidian, plugin, operating system, and tunnel-client versions (no secrets).
+    validations:
+      required: false
+
