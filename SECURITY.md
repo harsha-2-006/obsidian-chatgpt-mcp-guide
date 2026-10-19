@@ -10,7 +10,7 @@ Do not open a public issue or pull request containing API keys, bearer tokens, t
 
 ## Reporting
 
-For a security concern, use GitHub's private vulnerability reporting for this repository if enabled. Otherwise contact the repository owner through a private channel listed on their GitHub profile. Include a concise description and safe reproduction details; do not send credentials.
+For a security concern, use GitHub's private vulnerability reporting through the repository's **Security** tab. Include a concise description and safe reproduction details; do not send credentials.
 
 ## Reader safeguards
 
