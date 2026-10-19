@@ -2,6 +2,10 @@
 
 A practical, security-first guide to connect an Obsidian vault to ChatGPT using the **Local REST API with MCP** community plugin and OpenAI's **Secure MCP Tunnel**. It is written for people who want ChatGPT to work with notes stored on their own computer.
 
+## Project origin
+
+This is an independent community contribution about using ChatGPT with Obsidian. ChatGPT's **Computer Use** option was used to create and configure this GitHub repository. ChatGPT also helped draft the documentation, and the files were committed through the connected GitHub integration. Obsidian is the subject of the guide, not a co-author. This repository is not an official OpenAI or Obsidian project and neither organization endorses it.
+
 > **At a glance:** the Obsidian plugin exposes an authenticated MCP endpoint on your computer. ChatGPT's hosted service cannot reach `localhost` directly, so use the Secure MCP Tunnel to carry the connection from your computer to ChatGPT. Do not expose the plugin port to the public internet.
 
 ## Before you start
